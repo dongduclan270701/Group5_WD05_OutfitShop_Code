@@ -1,0 +1,43 @@
+*{
+  padding:0;
+  margin:0;
+  font-family: "Quicksand", Sans-serif !important;
+}
+.container{
+  margin-top: 30px;
+  max-width:1140px;
+}
+.container .table,button{font-size:14px;}
+.container .table tr th{
+  text-align:center;
+
+}
+.container .table tr th{border-width: 1px;}
+.container .table tr td{border-width: 1px;text-align: center}
+.table>:not(:last-child)>:last-child>* {
+  border-bottom-color: darkgrey !important;
+}.container .table tr .cart-sum{text-align:left;padding:10px 20px 10px 20px;}
+.container .table tr .cart-sum1{width: 24%}
+.container .table tr td input{text-align: center;border:1px solid gray; border-radius: 3px; max-width:100px; height: 34px;}
+.cart-pro td a{text-decoration: none;color: black}
+.cart-pro td a:hover{color: gray;    transition: all .3s;}
+.cart-pro .cart-pro-td{padding-top: 35px;}
+.cart-pro .cart-pro-td2{padding-top: 44px;}
+#button1{transition: all .3s;font-weight: 600;background-color: white; color: black;width:20%;border-radius: 3px; height: 34px;border:0.1px solid black;}
+#button1:hover{background-color: black;color: white;}
+
+
+.sale-trans:hover{transition: all .3s; background-color: rgb(231, 231, 231);}
+.Tittle {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: "Quicksand", Sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+}
+.shubmit a{text-decoration: none;}
+#button12{transition: all .3s;font-weight: 600;background-color: white; color: black;width:100%;border-radius: 3px; height: 40px;border:0.1px solid black;}
+#button12:hover{background-color: black;color: white;}
+@media screen and (width: 500px) {
+  #button1{width:100%}
+}

@@ -1,0 +1,115 @@
+*{
+  padding:0;
+  margin:0;
+  font-family: "Quicksand", Sans-serif !important;
+
+}
+body{  font-size:15px;}
+@media (min-width: 1400px){
+.container{
+    max-width: 1120px !important;
+    margin-top: 30px;
+}
+
+}
+  @media screen and (width: 600px) {
+
+    .container{
+      width:500px !important;
+    }
+    .col-sm-12 input{width:100%;margin:10px 0px 10px 0px !important;border: 1px solid black; border-radius: 3px;height: 37px; padding: 0px 10px 0px 10px}
+  }
+.Tittle {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: "Quicksand", Sans-serif;
+  font-size: 19px !important;
+  font-weight: 700 !important;
+}
+#elementor-heading-title {
+  color: #383838;
+  font-family: "Quicksand", Sans-serif;
+  font-size: 20px;margin: 0px 0px 40px 0px;
+  font-weight: 600;  line-height: 1;  padding: 0;
+}
+#elementor-size-large {
+  color: #383838;
+  font-family: "Quicksand", Sans-serif;
+  font-size: 16px;margin: 0px 0px 20px 0px;
+  font-weight: 600;  line-height: 1;  padding: 0;
+}
+.col-sm-12 input{width:100%;margin:10px 0px 10px 0px !important;border: 1px solid black; border-radius: 3px;height: 37px; padding: 0px 10px 0px 10px}
+.container .table tr .cart-sum{text-align:left;padding:10px 20px 10px 20px;}
+.container .table tr .cart-sum1{width: 24%}
+
+.cart-pro td a{text-decoration: none;color: black}
+.cart-pro td a:hover{color: gray;    transition: all .3s;}
+.cart-pro .cart-pro-td{padding-top: 35px;}
+.cart-pro .cart-pro-td2{padding-top: 44px;}
+ul.payment_methods {
+  text-align: left;
+  padding: 1em;
+  border-bottom: 1px solid #d3ced2;
+  margin: 0;
+  list-style: none outside;
+}
+ul.payment_methods::before {
+  content: ' ';
+  display: table;
+}
+ul.payment_methods li {
+  line-height: 2;
+  text-align: left;
+  margin: 0;
+  font-weight: 400;
+}
+ul.payment_methods li input {
+  margin: 0 1em 0 0;
+}
+.payment_box {
+  font-family: "Quicksand", Sans-serif;
+  font-weight: 500;
+  color: #000000;
+}
+div.payment_box {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1em;
+  margin: 1em 0;
+  font-size: .92em;
+  border-radius: 2px;
+  line-height: 1.5;
+  background-color: #dfdcde;
+  color: #515151;
+}
+div.payment_box::before {
+  content: "";
+  display: block;
+  border: 1em solid #dfdcde;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  position: absolute;
+  top: -.75em;
+  left: 0;
+  margin: -1em 0 0 2em;
+}
+div.payment_box p:last-child {
+  margin-bottom: 0;
+}
+#button12{margin-top: 10px; margin-bottom: 10px;transition: all .3s;font-weight: 600;background-color: white; color: black;width:100%;border-radius: 3px; height: 40px;}
+#button12:hover{background-color: black;color: white;}
+.container .table,button{font-size:14px;}
+.container .table tr th{
+  text-align:center;
+
+}
+.shubmit a{text-decoration: none;}
+.container .table tr th{border-width: 1px;}
+.container .table tr td{border-width: 1px;text-align: center}
+.table>:not(:last-child)>:last-child>* {
+  border-bottom-color: darkgrey !important;
+}.container .table tr .cart-sum{text-align:left;padding:10px 20px 10px 20px;}
+.container .table tr .cart-sum1{width: 50%}
+.container .table tr td input{text-align: center;border:1px solid gray; border-radius: 3px; max-width:100px; height: 34px;}

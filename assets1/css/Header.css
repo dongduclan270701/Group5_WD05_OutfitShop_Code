@@ -1,0 +1,233 @@
+
+html{overflow-y:scroll; overflow-x:hidden;}
+html, body{margin:0; padding:0; font-size:15px; line-height:1.6em;}
+a{outline:none; text-decoration:none;}
+
+/* Fonts
+--------------------------------------------------------------------------------------------------------------- */
+*{
+	font-family: Quicksand, Sans-serif;
+	font-style: normal !important;
+}
+h1, h2, h3, h4, h5, h6, .heading{
+	font-family: Quicksand, Sans-serif;
+}
+/* Forms
+--------------------------------------------------------------------------------------------------------------- */
+form, fieldset, legend{
+	margin:0; 
+	padding:0;
+	border:none;}
+legend{
+	display:none;
+}
+label, input, textarea, select, button{
+	display:block; 
+	resize:none; 
+	outline:none; 
+	color:inherit; 
+	font-size:inherit; 
+	font-family:inherit; 
+}
+label{margin-bottom:5px;}
+:required, :invalid{outline:none; box-shadow:none;}
+.hoc{display:block; margin:0 auto;}
+#topbar{padding:2px 0; text-transform:uppercase; text-align:center; font-weight:500; font-size:10px;font-style: normal;}
+#topbar *{margin:0;}
+#topbar ul li{display:inline-block; margin-right:10px; padding-right:15px; border-right:1px solid;}
+#topbar ul li:last-child{margin-right:0; padding-right:0; border-right:none;}
+#topbar i{line-height:normal;}
+#header{padding:20px 0;}
+#header section{display:table; width:100%;}
+#header section > div{display:table-cell; width:33.33333333333333%; vertical-align:middle;}
+#header section > div *{margin:0;}
+
+#header section > div:nth-child(2){text-align:center;}
+#header #logo{font-size:26px; text-transform:uppercase;}
+#header #logo i{display:block; margin-bottom:20px; font-size:3.5rem;}
+#header section form{display:block; position:relative; float:right; max-width:250px;}
+#header section input, #header section button{display:block; height:32px; border:solid;}
+#header section input{width:100%; float:right; padding:5px 40px 5px 10px; border-width:1px;}
+#header section button{position:absolute; top:1px; right:1px; width:32px; height:30px; border-width:0 0 0 1px; font-size:16px; cursor:pointer;}
+#header section button em{display:none;}
+nav ul, nav ol{margin:0; padding:0; list-style:none;}
+#mainav, #breadcrumb, .sidebar nav{line-height:normal;box-shadow: 0px 10px 20px 0px #888888;}
+#mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:"Font Awesome\ 5 Free"; font-weight:900; font-size:10px; line-height:10px;}
+#mainav ul{ text-align:center;}
+/* #mainav ul .active:hover{} */
+#mainav ul ul{z-index:9999; position:absolute; width:194.5px; text-transform:none; text-align:left;}
+#mainav ul ul ul{left:180px; top:0;}
+#mainav li{display:inline-block; position:relative; margin:0; padding:0 76.6px; color:#222222;}
+#mainav li li{width:100%; margin:0;}
+#mainav li a{display:block; padding:20px 0;}
+#mainav li li a{border:solid; border-width:0 0 1px 0;}
+
+#mainav li li a, #mainav li li .drop{display:block; margin:0; padding:10px 15px;}
+#mainav .drop::after, #mainav li li .drop::after{content:"\f0d7";}
+#mainav .drop::after{top:25px; left:5px;}
+#mainav li li .drop::after{top:15px; left:5px;}
+#mainav ul ul{visibility:hidden; opacity:0;}
+#mainav ul li:hover > ul{visibility:visible; opacity:1;}
+.dr .dro{padding:0px !important}
+#mainav ul li:hover{border-bottom: 3px solid black;-webkit-transition: all 1.3s;}
+#mainav ul li .dr .dro:hover{border-bottom: 0px solid black;}
+#mainav #accordion li{display:none; margin:0; padding:0;}
+#mainav2 ul ul{display:none}
+#mainav2 ul li:hover >ul{display:block; z-index:1111;position: absolute;}
+#mainav2 ul ul li a{text-decoration: none; color:black}
+#mainav2 ul ul li{background-color: #F3F3F3;border: 0px solid black;width: 150px;padding: 5px 5px 5px 15px !important;}
+#mainav2 ul ul li a:hover{color:#fa5e47}
+body{color:#DFDFDF; background-color:#ffffff;}
+.row0, .row0 a{
+	color:black; 
+	background-color:#F3F3F3;}
+.row1{color:#474747; background-color:#FFFFFF;}
+.row2{color:black; background-color:#ffffff;}
+.row3{color:#474747; background-color:#FFFFFF;}
+.row4{color:#DFDFDF; background-color:#262626; border-color:#FA543A;}
+.row5, .row5 a{color:#DFDFDF; background-color:#1A1A1A;}
+.coloured{color:#FFFFFF; background-color:#F3F3F3; }
+.coloured .btn:hover{background-color:transparent; border-color:inherit;}
+#topbar ul li{border-color:rgba(255,255,255,.4);}
+#topbar li:first-child a, #topbar a:hover{color:#000000;}
+#header section input, #header section button{border-color:#d6d6d6;border-radius: 3px !important;}
+#header section input:focus{border-color:#b8b8b8;}
+#header section button{color:black; background-color:#F3F3F3; border-color:#F3F3F3;}
+#header .clear{float:left; margin-right: 37px;text-decoration: none;}
+#header .clear i{font-size: 20px; margin-top: 5px; color:#000000;}
+#header .clear a{    font-size: 13px; font-style: normal; font-weight: 400;}
+#mainav li a{color:inherit;text-decoration: none;}
+#mainav li li a, #mainav .active li a{color:black; background-color:#F3F3F3;border-color:#F3F3F3;}
+#mainav li li:hover > a, #mainav .active .active > a{color:#fa5e47;}
+#mainav form select{color:#474747; background-color:#FFFFFF;border-radius: 20px;}
+#mainav form{display:none;}
+@media screen and (max-width:600px){
+	.hoc{max-width:100%;}
+
+	.row2{background-color:#F3F3F3;padding-top:21px;padding-bottom:1px}
+	#header #logo{margin-top:3px;}
+.searchh .notlog .notlog1{margin-left:-110px !important}
+	#mainav .clear{display:none;}
+	/* #mainav #accordion ul{display:block} */
+	#mainav form{display:none;}
+	.imgl, .imgr{display:inline-block; float:none; margin:0 0 10px 0;}
+	.fl_left, .fl_right{display:block; float:none;}
+	#header{text-align:center;}
+	#header section > div form{width:100%; max-width:200px; float:none; margin:0 auto;}
+	#header section > div form input{float:none;}
+	#header #logo{margin:0 0 15px 0;}
+	#pageintro figcaption{padding:80px 0; font-size:3rem;}
+	#services > li:nth-last-child(-n+3){margin-bottom:30px;}
+	#header section, #header section > div{display:block; width:100%;}
+	#header section > div{width:100%; margin-bottom:30px; text-align:center;}
+	#header section > div:nth-child(3){margin-bottom:0;}
+	#header .clear{margin-right: 30px;}
+	#header .searchh{margin-left: 55px; margin-bottom: 60px !important; padding-top: 10px !important;}
+	.row0{display: none;}
+	.wrapper .accordion{display:block !important;}
+}
+
+ul { list-style-type: none; }
+
+a {
+  color: #b63b4d;
+  text-decoration: none;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 80px;
+}
+
+h1 a {
+  color: #c12c42;
+  font-size: 16px;
+}
+
+.accordion {
+  width: 100%;
+  max-width: 330px;
+  margin: 0px auto 20px;
+	padding:0px;
+  background: #FFF;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.accordion .link {
+  cursor: pointer;
+  display: block;
+  padding: 15px 15px 15px 42px;
+  color: #4D4D4D;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 1px solid #CCC;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.accordion li:last-child .link { border-bottom: 0; }
+
+.accordion li i {
+  top: 16px;
+  left: 12px;
+	padding-left: 111px;
+  font-size: 18px;
+  color: #595959;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.accordion li i.fa-chevron-down {
+  right: 12px;
+  left: auto;
+  font-size: 16px;
+}
+
+.accordion li.open .link { color: #5c5c5c; }
+
+.accordion li.open i { color: #646464; }
+
+.accordion li.open i.fa-chevron-down {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/**
+ * Submenu
+ -----------------------------*/
+
+
+.submenu {
+  display: none;
+  background: #444359;
+  font-size: 14px;
+	text-align: -webkit-center;
+	padding:0px;
+}
+
+.submenu a {
+	background-color: #ffffff;
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  padding: 12px;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.submenu a:hover {
+  background: #585556;
+  color: #FFF;
+}
+.wrapper .accordion{display:none;}

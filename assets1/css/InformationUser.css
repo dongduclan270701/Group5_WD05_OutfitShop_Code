@@ -1,0 +1,191 @@
+*{
+  padding:0;
+  margin:0;
+  font-family: "Quicksand", Sans-serif !important;
+}
+body {
+  background: #f3f3f3 !important;
+
+}
+
+.nav{
+  display: block !important;
+
+}
+.profile {
+  margin: 20px 0;
+}
+
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background: #fff;
+}
+button{
+  border: none !important;
+}
+
+
+.profile-userpic img {
+
+  float: none;
+  margin: 0 auto;
+  width: 50%;
+  /* height: 20%; */
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+.profile-userpic{
+  text-align: center;
+}
+
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+button {background-color:white !important;color:black !important; font-weight: 600 !important; font-size: 13px !important;}
+button:hover{background-color:black !important;color:white !important;transition: all 0.4s !important;}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+}
+
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+
+.profile-usermenu {
+  margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+  color: black;
+  font-size: 14px;text-decoration:none;
+  font-weight: 400;
+}
+
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+  
+}
+
+.profile-usermenu ul li:hover {
+  background-color: #f3f3f3;
+  color: gray;
+  transition: all 0.4s;
+  padding-left: 30px !important;
+}
+
+.profile-usermenu ul li.active {
+  border-bottom: none;
+  background-color: #f3f3f3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.profile-usermenu ul li.active a {
+  color:black;
+  background-color: #f3f3f3;  
+}
+
+
+.profile-content {
+  padding: 20px;
+  background: #fff;
+  min-height: 460px;
+  
+}
+.user-page{position:relative; color:black;}.user-page .postname{color: black;
+  text-align: start;font-weight:700;text-transform:uppercase;font-size:22px;line-height:1.5;margin-top:0;margin-bottom:20px;padding-left: 15px;}h1{font-size:2em;margin:.67em 0}.user-page .account-info{position:relative;margin-bottom:30px}.user-page .posttitle{font-weight:500;border-left:3px solid brown;padding-left:10px;font-size:18px;line-height:1.5;margin:0 0 20px;min-height:27px;padding-left: 15px;}.user-page .link{font-size:13px;color:#333;position:absolute;top:3px;right:0}
+.news {
+  font-size: 13px;
+  white-space: nowrap; overflow: hidden;
+                            text-overflow: ellipsis;
+}
+
+.news2 {
+  background-color: rgb(245 245 245);
+  margin: 15px;
+  width: 95%;
+}
+.input-news {
+  padding: 5px;
+  border: 0;
+  border-radius: 10px;
+}
+.padd-infor{
+  padding:15px 30px 15px 30px
+
+}
+.title123{
+  font-size: 13px;
+}
+.btn-save{
+  text-align: center;
+  background-color: white;
+  border: 1px solid black !important;
+}
+.btn-save:hover{
+  background-color:black;
+  color:white !important;
+  transition: all 0.4s;
+}
+.pro-img , .pro-name{
+  float: left;
+}
+
+@media (min-width: 1120px){
+.statis{
+  text-align: right;
+}
+}
+@media screen and(min-width: 500px){
+  .statis{
+    text-align: left;
+  }
+}
+.adope{font-size: 13px;}

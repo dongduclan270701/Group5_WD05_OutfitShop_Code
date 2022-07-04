@@ -1,0 +1,78 @@
+.sidebar {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: #F1F1F1 !important;
+    font-family: Quicksand, Sans-serif !important;
+  }
+
+.nav-head-content {
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+.row1 {
+    background-color: white;
+}
+
+.navbar {
+    border-radius: 11px !important;
+}
+
+.title2 {
+    background: color #f1f1f1 !important;
+}
+
+.row3 {
+    width: 100%;
+}
+
+.row3 .col {
+    text-align: center;
+    font-size: 13px;
+    margin: auto;
+}
+
+.list-voucher {
+    margin: 15px 0px;
+}
+
+.btn-color {
+    color: black;
+    background-color: white;
+    border-color: #6c757d;
+    border: black;
+}
+
+button#dropdownMenuButton1 {
+    border: 0.5px solid black;
+}
+
+.form-check {
+    margin-top: 5px;
+}
+
+.btn-sua {
+    background-color: #CEF5DB;
+    color: black;
+}
+
+.btn-xoa {
+    background-color: #FEDBDB;
+    color: black;
+}
+
+.btn-them {
+    background-color: #ABABFF;
+    color: black;
+}

@@ -1,0 +1,136 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #F1F1F1 !important;
+  font-family: Quicksand, Sans-serif !important;
+}
+.nav-head-content{
+  background-color:white;
+  width:100%;
+  height: auto !important;
+}
+.navbar{
+  border-radius: 11px !important;
+  
+}
+.title a{
+  font-size: 16px;
+  font-style: normal;
+}
+.title2{
+  padding-left: 10%;
+  padding-right: 10%;
+  
+}
+.content{
+  margin-top:15px;
+  background-color:white;
+  border-radius: 11px !important;
+  padding-bottom: 15px;
+}
+.infor{
+  font-size: 13px;
+
+}
+.infor2{
+  background-color:rgb(245 245 245);
+}
+.padd-infor{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.row3 {
+  width:100%;
+  text-align:center;
+  font-size: 13px;
+}
+.row4 {
+  width:100%;
+  text-align:right;
+  font-size: 16px;
+}
+.row3-1{
+  border: 1px solid black;
+  border-radius: solid 1px black;
+  line-height: 48px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.btnn{
+  margin-left: 45%;
+  margin-right: 45%;
+}
+.Tittle-user{
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #F1F1F1;
+  margin-inline: 30px;
+  background-color: #F1F1F1;
+}
+.content-user{
+  font-size: 16px;
+  font-style: normal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+
+  margin-inline: 30px;
+}
+.card{
+  margin: auto;
+}
+#example_length{
+  display: none !important;
+}
+#example_filter{
+  display: none !important;
+}
+
+#example_info{
+  display: none !important;
+}
+#example_paginate{
+  padding: 10px
+}
+ul.pagination{
+  justify-content: flex-start !important;
+}
+@media screen and (max-width: 600px) {
+  .card{
+    margin-inline: 30px ;
+    margin-bottom: 15px;
+  }
+  .content-user .align{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left:0px;
+    padding-right: 0px;
+  }
+  
+}
+@media screen and (max-width: 600px) {
+  table thead .display{
+      display:none;
+  }
+  table tbody .display{
+      display:none;
+  }
+  .title2{
+      padding-left: 20px;
+      padding-right: 10px;
+  }
+  .title2 .col{
+    text-align: end;
+  }
+  .col2{
+    display: none;
+  }
+}

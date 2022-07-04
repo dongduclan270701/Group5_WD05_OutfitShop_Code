@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: #F1F1F1 !important;
+    font-family: Quicksand, Sans-serif !important;
+  }
+
+.nav-head-content {
+    background-color: white;
+    width: 100%;
+    height: auto !important;
+}
+.navbar {
+    border-radius: 11px !important;
+}
+
+.title a {
+    font-size: 16px;
+    font-style: normal;
+}
+
+.content {
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 11px !important;
+}
+
+.news {
+    font-size: 13px;
+}
+
+.news2 {
+    background-color: rgb(245 245 245);
+    margin: 15px;
+    width: 100%;
+}
+.input-news {
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+.padd-news {
+    padding-top: 15px;
+}
+
+.list-voucher {
+    margin: 15px 0px;
+}
+
+.background-white {
+    background-color: white;
+}
+
+.background-f1 {
+    background-color: #F1F1F1;
+}
+
+
+
+.image-news {
+    text-align: center;
+}
+
+.img-news {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-news {
+    font-size: 13px;
+    border: 0.1px solid grey;
+    border-radius: 10px;
+    background-color: #F1F1F1;
+}
+
+.btn-them {
+    background-color: #ABABFF;
+    color: black;
+}
+.dataTables_wrapper .dataTables_info{display: none !important;}
+.btn-outline-secondary {color: black !important; background-color:white;}
+.btn-outline-secondary:hover{color: white !important;background-color:black !important;transition: all 0.4s;}
+button {color: black !important; background-color:white !important;}
+button:hover{color: white !important;background-color:black !important;transition: all 0.4s;}
+a{text-decoration: none !important;}
